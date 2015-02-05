@@ -18,10 +18,8 @@ class FirstViewController: UIViewController , UINavigationControllerDelegate{
         self.navigationController?.navigationBar
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         self.navigationItem.setHidesBackButton(true, animated: false)
-        self.title = "Welcome!"
+        self.title = "TOP"
         
-        
- 
 /////////////////////////////////////////////////////////////////
         // ここから画像の記述
 /////////////////////////////////////////////////////////////////
@@ -83,13 +81,19 @@ class FirstViewController: UIViewController , UINavigationControllerDelegate{
         self.view.addSubview(SignUpButton)
         self.view.addSubview(LoginButton)
         
+/////////////////////////////////////////////////////////////////////
+        //画面サイズ取得
+////////////////////////////////////////////////////////////////////
+        let screenWidth = Int( UIScreen.mainScreen().bounds.size.width);
+        let screenHeight = Int(UIScreen.mainScreen().bounds.size.height);
+        let rect = UIScreen.mainScreen().bounds;
         
 /////////////////////////////////////////////////////////////////
         // ここから文字の記述
 ////////////////////////////////////////////////////////////////
         // Labelを作成.
-        let WelcomeLavel: UILabel = UILabel(frame: CGRectMake(100,0,500,100))
-        let HelloLabel: UILabel = UILabel(frame: CGRectMake(100,0,500,100))
+        let WelcomeLavel: UILabel = UILabel(frame: CGRectMake(0,0,500,100))
+        let HelloLabel: UILabel = UILabel(frame: CGRectMake(0,0,500,100))
         
         // 枠を丸くする.
         WelcomeLavel.layer.masksToBounds = true
@@ -120,12 +124,13 @@ class FirstViewController: UIViewController , UINavigationControllerDelegate{
         HelloLabel.textAlignment = NSTextAlignment.Center
         
         // 配置する座標を設定する.
-        WelcomeLavel.layer.position = CGPoint(x: 130,y: 200)
-        HelloLabel.layer.position = CGPoint(x: 130,y: 160)
+        WelcomeLavel.layer.position = CGPoint(x: screenWidth/3,y: screenHeight/4)
+        HelloLabel.layer.position = CGPoint(x: screenWidth/3,y: screenHeight/5)
         
         // ViewにLabelを追加.
         self.view.addSubview(WelcomeLavel)
         self.view.addSubview(HelloLabel)
+        
     }
     
 /////////////////////////////////////////////////////////////////////

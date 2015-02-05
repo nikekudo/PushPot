@@ -24,9 +24,9 @@ class AllNews: UIViewController , UITextFieldDelegate , UINavigationControllerDe
         // Viewの背景色を定義する.
         self.view.backgroundColor = UIColor.groupTableViewBackgroundColor()
         
-        /////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
         // ここから文字の記述
-        ////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
         let FinishSignUpLabel: UILabel = UILabel(frame: CGRectMake(200,0,800,600))
         
         // 枠を丸くする.
@@ -52,9 +52,9 @@ class AllNews: UIViewController , UITextFieldDelegate , UINavigationControllerDe
         
         // ViewにLabelを追加.
         self.view.addSubview(FinishSignUpLabel)
-        /////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
         //ボタンの記述
-        ////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
         NewsPushButton.frame = CGRectMake(0,0,180,25)
         LoginInformationButton.frame = CGRectMake(0,0,180,25)
         
@@ -85,14 +85,13 @@ class AllNews: UIViewController , UITextFieldDelegate , UINavigationControllerDe
         // Viewの背景色を定義する.
         self.view.backgroundColor = UIColor.groupTableViewBackgroundColor()
         
-        
-        
-        // Viewの背景色を定義する.
-        self.view.backgroundColor = UIColor.groupTableViewBackgroundColor()
-        
-        button = UIBarButtonItem(title: "＜Top", style: .Plain, target: self, action: "onClick:")
+        button = UIBarButtonItem(title: "Top", style: .Plain, target: self, action: "onClick:")
         self.navigationItem.leftBarButtonItem = button
     }
+
+/////////////////////////////////////////////////////////////////////
+    //ボタンイベントの記述
+////////////////////////////////////////////////////////////////////
     
     func onClick(button : UIButton){
         
