@@ -19,6 +19,8 @@
 		DB28C4361A82068C002DBC31 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28C4351A82068C002DBC31 /* Login.swift */; };
 		DB28C4381A824F13002DBC31 /* FinishSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28C4371A824F13002DBC31 /* FinishSignUp.swift */; };
 		DB28C43A1A8256E7002DBC31 /* AllNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28C4391A8256E7002DBC31 /* AllNews.swift */; };
+		DB6540181A83679000D607D8 /* LoginInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6540161A83679000D607D8 /* LoginInformation.swift */; };
+		DB6540191A83679000D607D8 /* NewsPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6540171A83679000D607D8 /* NewsPush.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DB28C4351A82068C002DBC31 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		DB28C4371A824F13002DBC31 /* FinishSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishSignUp.swift; sourceTree = "<group>"; };
 		DB28C4391A8256E7002DBC31 /* AllNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNews.swift; sourceTree = "<group>"; };
+		DB6540161A83679000D607D8 /* LoginInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInformation.swift; sourceTree = "<group>"; };
+		DB6540171A83679000D607D8 /* NewsPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsPush.swift; sourceTree = "<group>"; };
 		F0DB08F189FFFC05CE222188 /* libPods-Project_PushPot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project_PushPot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,8 @@
 				DB28C4371A824F13002DBC31 /* FinishSignUp.swift */,
 				DB28C4351A82068C002DBC31 /* Login.swift */,
 				DB28C4391A8256E7002DBC31 /* AllNews.swift */,
+				DB6540161A83679000D607D8 /* LoginInformation.swift */,
+				DB6540171A83679000D607D8 /* NewsPush.swift */,
 				DB02ACF01A8082440010E189 /* Main.storyboard */,
 				DB02ACF31A8082440010E189 /* Images.xcassets */,
 				DB02ACF51A8082440010E189 /* LaunchScreen.xib */,
@@ -300,6 +306,8 @@
 				DB02ACEF1A8082440010E189 /* TopPage.swift in Sources */,
 				DB02ACED1A8082440010E189 /* AppDelegate.swift in Sources */,
 				DB28C4381A824F13002DBC31 /* FinishSignUp.swift in Sources */,
+				DB6540181A83679000D607D8 /* LoginInformation.swift in Sources */,
+				DB6540191A83679000D607D8 /* NewsPush.swift in Sources */,
 				DB28C4361A82068C002DBC31 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

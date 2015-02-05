@@ -20,10 +20,6 @@ class FirstViewController: UIViewController , UINavigationControllerDelegate{
         self.navigationItem.setHidesBackButton(true, animated: false)
         self.title = "Welcome!"
         
-        //変更しました　てすと
-        
-        ///aaaaaaaaaaaaaaaaaaaaaa
-        
         
  
 /////////////////////////////////////////////////////////////////
