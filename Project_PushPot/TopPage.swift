@@ -22,6 +22,8 @@ class FirstViewController: UIViewController , UINavigationControllerDelegate{
         
         //変更しました　てすと
         
+        ///aaaaaaaaaaaaaaaaaaaaaa
+        
         
  
 /////////////////////////////////////////////////////////////////
